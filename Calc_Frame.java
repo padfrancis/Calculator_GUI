@@ -6,7 +6,7 @@ import java.beans.PropertyChangeListener;
 
 public class Calc_Frame extends JFrame implements PropertyChangeListener
 {
-    ImageIcon img = new ImageIcon("src/Calculator/icon.png");
+    ImageIcon img = new ImageIcon("Calculator_GUI/icon.png");
     Calc_Frame ()
     {
         this.setDefaultCloseOperation(EXIT_ON_CLOSE);
@@ -23,6 +23,7 @@ public class Calc_Frame extends JFrame implements PropertyChangeListener
         this.add(topPanel);
         this.setVisible(true);
     }
+//Themes
     public void setTheme(String theme) {
         switch (theme) {
             case "Light  ":
