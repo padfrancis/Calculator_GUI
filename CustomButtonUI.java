@@ -5,7 +5,6 @@ import java.awt.*;
 
 public class CustomButtonUI extends BasicButtonUI
 {
-//Don't add anything
     @Override
     protected void paintButtonPressed(Graphics g, AbstractButton b)
     {
