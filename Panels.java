@@ -236,7 +236,7 @@ public class Panels extends JPanel implements ActionListener
             }
         }
     }
-    //{ "AC", "DEL", "%", "/","x","-", "+", "00", ".", "="};
+
     @Override
     protected void paintComponent(Graphics g)
     {
